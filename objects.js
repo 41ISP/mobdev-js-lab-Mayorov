@@ -4,6 +4,7 @@ const book = {
   author: "Булгаков М.А.",
   year: 1967,
   pages: 480,
+  available: true,
   info()
   {
     return `«${this.title}», ${this.author}, ${this.year} г., ${this.pages} стр.`
